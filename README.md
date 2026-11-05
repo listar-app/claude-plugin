@@ -5,7 +5,7 @@ Official [Listar](https://listar.fr/en) plugin for Claude Code. Find the decisio
 ## Install
 
 ```
-/plugin marketplace add abrel/claude-plugin
+/plugin marketplace add listar-app/claude-plugin
 /plugin install listar@listar
 ```
 

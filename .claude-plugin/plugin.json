@@ -9,7 +9,7 @@
     "url": "https://listar.fr"
   },
   "homepage": "https://listar.fr/en/claude-mcp",
-  "repository": "https://github.com/abrel/claude-plugin",
+  "repository": "https://github.com/listar-app/claude-plugin",
   "license": "MIT",
   "privacyPolicyUrl": "https://listar.fr/en/privacy-policy",
   "keywords": [
