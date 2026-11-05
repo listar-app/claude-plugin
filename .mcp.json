@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "listar": {
+      "type": "http",
+      "url": "https://api.listar.fr/mcp"
+    }
+  }
+}

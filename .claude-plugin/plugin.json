@@ -1,0 +1,24 @@
+{
+  "name": "listar",
+  "version": "1.0.0",
+  "description": "Find the decision makers of a company and the professional phone and email of a person, from official business registers (INPI, SIRENE) and B2B data sources. Full coverage of France, partial elsewhere.",
+  "author": {
+    "name": "Listar SAS",
+    "email": "alexandre@listar-app.com",
+    "url": "https://listar.fr"
+  },
+  "homepage": "https://listar.fr/en/claude-mcp",
+  "repository": "https://github.com/abrel/claude-plugin",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://listar.fr/en/privacy-policy",
+  "keywords": [
+    "b2b",
+    "contacts",
+    "prospecting",
+    "sales",
+    "enrichment",
+    "phone",
+    "email",
+    "france"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "listar",
+  "owner": {
+    "name": "Listar SAS",
+    "email": "alexandre@listar-app.com"
+  },
+  "metadata": {
+    "description": "Official Listar plugin for Claude Code: B2B contacts for prospecting."
+  },
+  "plugins": [
+    {
+      "name": "listar",
+      "source": "./",
+      "description": "Find the decision makers of a company and the professional phone and email of a person. Full coverage of France, partial elsewhere.",
+      "version": "1.0.0",
+      "category": "sales",
+      "homepage": "https://listar.fr/en/claude-mcp"
+    }
+  ]
+}
