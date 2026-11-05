@@ -29,6 +29,14 @@ claude mcp add --transport http listar https://api.listar.fr/mcp
 - "Enrich leads.csv with the mobile and email of each person."
 - "Find the heads of sales who took their job in France over the last two months."
 
+## Data and privacy
+
+- The plugin runs no local code. It declares one remote MCP server, `https://api.listar.fr/mcp`, operated by Listar SAS, and two skills made of instructions only.
+- What Claude sends to that server: the search inputs of each tool call (company name, SIREN or SIRET, website domain, city, country, a person's name, company, job title, LinkedIn profile, known email), and for the `enrich-csv` skill the rows of the file the user asks to enrich. The server answers with company details, decision makers, professional phone numbers, emails and LinkedIn profiles.
+- Sign in uses OAuth on listar.fr. The access token is an API key of your Listar account, which you can revoke at any time in Settings > API keys.
+- Results written by `enrich-csv` stay on your machine, in a new file next to the original.
+- Nothing is sent to any other service. Privacy policy: [listar.fr/en/privacy-policy](https://listar.fr/en/privacy-policy).
+
 ## Support
 
 [listar.fr/en/contact](https://listar.fr/en/contact). Listar is meant for B2B use, and anyone can object to the processing of their data at any time on listar.fr.
