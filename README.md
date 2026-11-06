@@ -1,6 +1,6 @@
-# Listar for Claude Code and Gemini CLI
+# Listar for Claude Code, Cursor and Gemini CLI
 
-Official [Listar](https://listar.fr/en) plugin for Claude Code, also installable as a Gemini CLI extension. Find the decision makers of a company and the professional phone and email of a person, from official business registers (INPI, SIRENE) and B2B data sources. Full coverage of France, partial elsewhere.
+Official [Listar](https://listar.fr/en) plugin for Claude Code, also packaged for Cursor and as a Gemini CLI extension. Find the decision makers of a company and the professional phone and email of a person, from official business registers (INPI, SIRENE) and B2B data sources. Full coverage of France, partial elsewhere.
 
 ## Install
 
@@ -24,6 +24,10 @@ gemini extensions install https://github.com/listar-app/claude-plugin
 ```
 
 The first Listar call opens the sign-in page in your browser. The same `listar` MCP server and a `GEMINI.md` guide are added.
+
+## Cursor
+
+Install Listar from the Cursor Marketplace once it is listed, or add the MCP server in Cursor settings with the URL `https://api.listar.fr/mcp`. Sign in opens in your browser.
 
 ## What it adds
 

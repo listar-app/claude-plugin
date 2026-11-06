@@ -1,0 +1,35 @@
+{
+  "name": "listar",
+  "description": "Official Listar plugin: B2B contacts for prospecting.",
+  "owner": {
+    "name": "Listar SAS",
+    "email": "alexandre@listar-app.com",
+    "url": "https://listar.fr"
+  },
+  "plugins": [
+    {
+      "name": "listar",
+      "source": "./",
+      "version": "1.0.4",
+      "description": "Find the decision makers of a company and the professional phone and email of a person, from official business registers (INPI, SIRENE) and B2B data sources. Full coverage of France, partial elsewhere.",
+      "author": {
+        "name": "Listar SAS"
+      },
+      "homepage": "https://listar.fr/en/cursor-mcp",
+      "repository": "https://github.com/listar-app/claude-plugin",
+      "license": "MIT",
+      "keywords": [
+        "listar",
+        "b2b",
+        "prospecting",
+        "sales",
+        "enrichment",
+        "phone",
+        "email",
+        "france",
+        "mcp"
+      ],
+      "category": "sales"
+    }
+  ]
+}

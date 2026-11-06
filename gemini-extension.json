@@ -1,6 +1,6 @@
 {
   "name": "listar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Find the decision makers of a company and the professional phone and email of a person, from official business registers (INPI, SIRENE) and B2B data sources. Full coverage of France, partial elsewhere.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
